@@ -1,0 +1,89 @@
+    @import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dancing+Script&display=swap');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+    html { 
+        box-sizing: border-box;
+        min-width: 400px;
+        max-width: 1200px;
+        background-image: url(./clipboard.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 15%;
+        margin-top: 250px;
+        margin-right: 15%;
+        padding: 5px 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 100px;
+    }
+
+    h1 {
+        margin: 10px 0px;
+        color: rgb(191, 145, 29);
+    }
+
+    #counter {
+        color: darkgoldenrod;
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    input {
+        color: black;
+        height: 35px;
+        width: 80%;
+        border-color: rgb(85, 85, 45);
+        padding-left: 10px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    button {
+        color: chocolate;
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        border: none;
+        margin: 2px;
+    }
+
+    button:hover {
+        color: darkblue;
+    }
+
+    i {
+        pointer-events: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        color: darkgoldenrod;
+        list-style-type: none;
+        border-bottom: 1px solid lightgrey;
+        padding: 5px 0;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        overflow-wrap: anywhere;
+        /* width: 100%; */
+    }
+
+    span {
+        flex-grow: 1;
+        width: 40px;
+    }
+   
+
